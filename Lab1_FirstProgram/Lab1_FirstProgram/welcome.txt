@@ -1,0 +1,22 @@
+Welcome to the cs13001@cs.kent.edu mailing list!
+============================== = WELCOME, CS13001 STUDENTS! =
+==============================
+
+To post to this list, send your email to:
+
+  cs13001@cs.kent.edu
+
+General information about the mailing list is at:
+
+  https://listmail.cs.kent.edu/mailman/listinfo/cs13001
+
+If you ever want to unsubscribe or change your options (eg, switch to
+or from digest mode, change your password, etc.), visit your
+subscription page at:
+
+  https://listmail.cs.kent.edu/mailman/options/cs13001/cjones36%40kent.edu
+
+
+You can also make such adjustments via email by sending a message to:
+
+Why do they name it "read me" when no one ever does?

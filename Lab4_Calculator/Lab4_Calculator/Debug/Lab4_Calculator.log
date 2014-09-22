@@ -1,0 +1,16 @@
+﻿Build started 9/19/2014 8:21:14 PM.
+Project "\\vmware-host\shared folders\documents\visual studio 2013\Projects\Lab4_Calculator\Lab4_Calculator\Lab4_Calculator.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt calculator.cpp
+  calculator.cpp
+\\vmware-host\shared folders\documents\visual studio 2013\projects\lab4_calculator\lab4_calculator\calculator.cpp(17): warning C4091: '' : ignored on left of 'bool' when no variable is declared
+\\vmware-host\shared folders\documents\visual studio 2013\projects\lab4_calculator\lab4_calculator\calculator.cpp(17): error C2143: syntax error : missing ';' before 'continue'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\lab4_calculator\lab4_calculator\calculator.cpp(17): error C2143: syntax error : missing ';' before '='
+\\vmware-host\shared folders\documents\visual studio 2013\projects\lab4_calculator\lab4_calculator\calculator.cpp(17): error C2044: illegal continue
+\\vmware-host\shared folders\documents\visual studio 2013\projects\lab4_calculator\lab4_calculator\calculator.cpp(45): error C2143: syntax error : missing ';' before '='
+\\vmware-host\shared folders\documents\visual studio 2013\projects\lab4_calculator\lab4_calculator\calculator.cpp(47): error C2059: syntax error : 'continue'
+Done Building Project "\\vmware-host\shared folders\documents\visual studio 2013\Projects\Lab4_Calculator\Lab4_Calculator\Lab4_Calculator.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.31

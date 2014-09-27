@@ -9,4 +9,35 @@
 #include <iostream> 
 #include <string>
 
-using std::cin; using std::cout; using std::endl;
+using namespace std;
+
+int main()
+{
+	char gender;
+	int weight, feet, inches, height, age;
+	double bmrWomen, bmrMen, result;
+
+	cout << "BMI Calculator.\nPlease enter your Gender. (M or F?)" << endl;
+	cin >> gender;
+	cout << "How much do you weigh (in pounds)?" << endl;
+	cin >> weight;
+	cout << "How many feet tall are you?" << endl;
+	cin >> feet;
+	cout << "How many additional inches tall are you?" << endl;
+	cin >> inches;
+	cout >> "What is your age (don't worry I won't tell anyone.)"
+		cin >> age;
+
+	height = (feet * 12) + inches;
+
+	if (gender = "m")
+		bmrMen = (weight, height, age);
+	result = (66 + (6.3 * weight) + (12.9 * height) - (6.8 * age));
+	else
+		bmrWomen = (weight, height, age);
+	result = (655 + (4.3 * weight) + (4.7 * height) - (4.7 * age));
+
+	cout << result;
+
+	return 0;
+}

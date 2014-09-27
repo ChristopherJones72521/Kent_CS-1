@@ -1,57 +1,13 @@
-﻿Build started 9/26/2014 9:12:20 PM.
-Project "\\vmware-host\shared folders\documents\visual studio 2013\Projects\Lab5_BMR\Lab5_BMR\Lab5_BMR.vcxproj" on node 2 (Build target(s)).
+﻿Build started 9/26/2014 9:53:04 PM.
+Project "\\vmware-host\Shared Folders\Documents\Visual Studio 2013\Projects\Lab5_BMR\Lab5_BMR\Lab5_BMR.vcxproj" on node 2 (Build target(s)).
 ClCompile:
   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt bmr.cpp
   bmr.cpp
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::ostream'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(135) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(135) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(135) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(135) : see declaration of 'std::operator >>'
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::ostream'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(21) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(21) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(21) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string(21) : see declaration of 'std::operator >>'
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Ty &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::ostream'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1103) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1103) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1103) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1103) : see declaration of 'std::operator >>'
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::ostream'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1093) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1093) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1093) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1093) : see declaration of 'std::operator >>'
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::ostream'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1086) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1086) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1086) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1086) : see declaration of 'std::operator >>'
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::ostream'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1079) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1079) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1079) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1079) : see declaration of 'std::operator >>'
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::ostream'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1072) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1072) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1072) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1072) : see declaration of 'std::operator >>'
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::ostream'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1047) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1047) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1047) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1047) : see declaration of 'std::operator >>'
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::ostream'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1006) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1006) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1006) : see declaration of 'std::operator >>'
-          c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1006) : see declaration of 'std::operator >>'
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2676: binary '>>' : 'std::ostream' does not define this operator or a conversion to a type acceptable to the predefined operator
-\\vmware-host\shared folders\documents\visual studio 2013\projects\lab5_bmr\lab5_bmr\bmr.cpp(41): error C2143: syntax error : missing ';' before 'return'
-Done Building Project "\\vmware-host\shared folders\documents\visual studio 2013\Projects\Lab5_BMR\Lab5_BMR\Lab5_BMR.vcxproj" (Build target(s)) -- FAILED.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\vmware-host\Shared Folders\Documents\Visual Studio 2013\Projects\Lab5_BMR\Debug\Lab5_BMR.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\vmware-host\Shared Folders\Documents\Visual Studio 2013\Projects\Lab5_BMR\Debug\Lab5_BMR.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\vmware-host\Shared Folders\Documents\Visual Studio 2013\Projects\Lab5_BMR\Debug\Lab5_BMR.lib" /MACHINE:X86 Debug\bmr.obj
+  Lab5_BMR.vcxproj -> \\vmware-host\Shared Folders\Documents\Visual Studio 2013\Projects\Lab5_BMR\Debug\Lab5_BMR.exe
+Done Building Project "\\vmware-host\Shared Folders\Documents\Visual Studio 2013\Projects\Lab5_BMR\Lab5_BMR\Lab5_BMR.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.25
+Time Elapsed 00:00:03.03

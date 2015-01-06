@@ -1,0 +1,23 @@
+Script started on Sun Dec  7 16:28:58 2014
+[1m[7m%[27m[1m[0m                                                                                                                                                  ]2;Chris@Christophers-MacBook-Pro-2: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;32m➜ [01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=scriptcd Desktop[10Dssh cjones36@hornet.cs.kent.edu[?1l>
+]2;ssh cjones36@hornet.cs.kent.edu]1;cjones36@hornet.cs.kent.educjones36@hornet.cs.kent.edu's password: 
+Last login: Sun Dec  7 16:17:12 2014 from cpe-74-141-3-45.swo.res.rr.com
+]0;cjones36@hornet:~[?1034h[cjones36@hornet ~]$ svn checkout http://svn.cs.kent.edu/courses/cs13001/svn/005/cjones36/Lab13_MultArrays-unix_submission
+Redirecting to URL 'https://svn.cs.kent.edu/courses/cs13001/svn/005/cjones36/Lab13_MultArrays-unix_submission':
+Checked out revision 4662.
+]0;cjones36@hornet:~[cjones36@hornet ~]$ cp [K[K[KHmmm, I don't think these subversion instructions are accurate
+> \c
+> 
+> ^C
+]0;cjones36@hornet:~[cjones36@hornet ~]$ Anyway...
+bash: Anyway...: command not found...
+]0;cjones36@hornet:~[cjones36@hornet ~]$ svn add Lab13_Vect_[KVectors/shots [KVectVectors.cpp
+svn: E155007: '/users/kent/cjones36/Lab13_VectVectors' is not a working copy
+]0;cjones36@hornet:~[cjones36@hornet ~]$ Tjh[K[Khought so...
+bash: Thought: command not found...
+]0;cjones36@hornet:~[cjones36@hornet ~]$ hmmm, idea
+bash: hmmm,: command not found...
+]0;cjones36@hornet:~[cjones36@hornet ~]$ exit
+logout
+Connection to hornet.cs.kent.edu closed.
+[1m[7m%[27m[1m[0m                                                                                                                                                  ]2;Chris@Christophers-MacBook-Pro-2: ~/Desktop]1;~/Desktop[0m[27m[24m[J[01;31m➜ [27m[01;32m [36mDesktop [01;34m[01;34m [00m[K[?1h=ccp typescript Lab    ~/documents/visualstudio2013/projects

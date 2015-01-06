@@ -1,0 +1,214 @@
+﻿Build started 12/4/2014 10:23:13 AM.
+Project "\\vmware-host\Shared Folders\Documents\Visual Studio 2013\Projects\Matrix_Code\Matrix_Code\Matrix_Code.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Matrix.cpp TextControl.cpp main.cpp
+  main.cpp
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(23): error C2146: syntax error : missing ';' before identifier 'position_'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(25): error C2146: syntax error : missing ';' before identifier 'matrixBox_'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(53): error C2146: syntax error : missing ';' before identifier 'getPosition'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(53): warning C4183: 'getPosition': missing return type; assumed to be a member function returning 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(57): error C2146: syntax error : missing ';' before identifier 'getMatrixBox'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(57): warning C4183: 'getMatrixBox': missing return type; assumed to be a member function returning 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(12): error C3861: 'SetConsoleTitle': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(13): error C3861: 'GetLastError': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(16): error C2065: 'SMALL_RECT' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(16): error C2146: syntax error : missing ';' before identifier 'windowSize'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(16): error C2065: 'windowSize' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(17): error C2065: 'STD_OUTPUT_HANDLE' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(17): error C2065: 'TRUE' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(17): error C2065: 'windowSize' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(17): error C3861: 'SetConsoleWindowInfo': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(17): error C3861: 'GetStdHandle': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(18): error C3861: 'GetLastError': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(48): error C3861: 'Sleep': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\main.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+  TextControl.cpp
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(6): error C2065: 'HANDLE' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(6): error C2146: syntax error : missing ';' before identifier 'hConsole'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(6): error C2065: 'hConsole' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(6): error C2065: 'STD_OUTPUT_HANDLE' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(6): error C3861: 'GetStdHandle': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(7): error C2065: 'CONSOLE_CURSOR_INFO' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(7): error C2146: syntax error : missing ';' before identifier 'CursoInfo'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(7): error C2065: 'CursoInfo' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(8): error C2065: 'CursoInfo' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(8): error C2228: left of '.dwSize' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(9): error C2065: 'CursoInfo' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(9): error C2228: left of '.bVisible' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(10): error C2065: 'hConsole' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(10): error C2065: 'CursoInfo' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(10): error C3861: 'SetConsoleCursorInfo': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(17): error C2065: 'HANDLE' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(17): error C2146: syntax error : missing ';' before identifier 'hConsole'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(17): error C2065: 'hConsole' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(17): error C2065: 'STD_OUTPUT_HANDLE' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(17): error C3861: 'GetStdHandle': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(18): error C2065: 'hConsole' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(18): error C3861: 'SetConsoleTextAttribute': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(25): error C2065: 'HANDLE' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(25): error C2146: syntax error : missing ';' before identifier 'hConsole'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(25): error C2065: 'hConsole' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(25): error C2065: 'STD_OUTPUT_HANDLE' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(25): error C3861: 'GetStdHandle': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(27): error C2065: 'COORD' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(27): error C2146: syntax error : missing ';' before identifier 'PlaceCursorHere'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(27): error C2065: 'PlaceCursorHere' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(28): error C2065: 'PlaceCursorHere' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(28): error C2228: left of '.X' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(29): error C2065: 'PlaceCursorHere' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(29): error C2228: left of '.Y' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(31): error C2065: 'hConsole' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(31): error C2065: 'PlaceCursorHere' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\textcontrol.cpp(31): error C3861: 'SetConsoleCursorPosition': identifier not found
+  Matrix.cpp
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(23): error C2146: syntax error : missing ';' before identifier 'position_'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(25): error C2146: syntax error : missing ';' before identifier 'matrixBox_'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(53): error C2146: syntax error : missing ';' before identifier 'getPosition'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(53): warning C4183: 'getPosition': missing return type; assumed to be a member function returning 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(57): error C2146: syntax error : missing ';' before identifier 'getMatrixBox'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.h(57): warning C4183: 'getMatrixBox': missing return type; assumed to be a member function returning 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(20): error C2228: left of '.Y' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(26): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(27): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(28): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(32): error C2146: syntax error : missing ',' before identifier 'box'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(38): error C2065: 'box' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(47): error C2228: left of '.Right' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(47): error C2228: left of '.Left' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(47): error C2228: left of '.Bottom' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(47): error C2228: left of '.Top' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(50): error C2228: left of '.Y' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(56): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(57): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(58): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(78): error C2228: left of '.Right' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(78): error C2228: left of '.Left' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(78): error C2228: left of '.Bottom' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(78): error C2228: left of '.Top' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(81): error C2228: left of '.Y' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(87): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(88): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(89): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(94): error C2228: left of '.Y' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(106): error C2228: left of '.Right' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(106): error C2228: left of '.Left' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(107): error C2228: left of '.Bottom' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(107): error C2228: left of '.Top' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(117): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(118): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(120): error C2228: left of '.X' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(120): error C2228: left of '.Y' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(120): error C2660: 'PlaceCursor' : function does not take 1 arguments
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(125): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(126): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(128): error C2228: left of '.X' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(128): error C2228: left of '.Y' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(128): error C2660: 'PlaceCursor' : function does not take 1 arguments
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(133): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(134): error C3861: 'GetTickCount': identifier not found
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(136): error C2228: left of '.X' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(136): error C2228: left of '.Y' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(136): error C2660: 'PlaceCursor' : function does not take 1 arguments
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(144): error C2228: left of '.X' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(144): error C2228: left of '.Y' must have class/struct/union
+          type is 'int'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(194): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(194): error C2146: syntax error : missing ',' before identifier 'position'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(195): error C2065: 'position_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(195): error C2228: left of '.X' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(195): error C2065: 'position' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(196): error C2065: 'position_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(196): error C2228: left of '.Y' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(196): error C2065: 'position' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(200): error C2065: 'position_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(200): error C2228: left of '.X' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(201): error C2065: 'position_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(201): error C2228: left of '.Y' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(204): error C2143: syntax error : missing ';' before 'Matrix::getPosition'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(204): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(205): error C2065: 'position_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(208): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(208): error C2146: syntax error : missing ',' before identifier 'matrixBox'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(209): error C2065: 'matrixBox_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(209): error C2228: left of '.Top' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(209): error C2065: 'matrixBox' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(210): error C2065: 'matrixBox_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(210): error C2228: left of '.Bottom' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(210): error C2065: 'matrixBox' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(211): error C2065: 'matrixBox_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(211): error C2228: left of '.Left' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(211): error C2065: 'matrixBox' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(212): error C2065: 'matrixBox_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(212): error C2228: left of '.Right' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(212): error C2065: 'matrixBox' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(217): error C2065: 'matrixBox_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(217): error C2228: left of '.Top' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(218): error C2065: 'matrixBox_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(218): error C2228: left of '.Bottom' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(219): error C2065: 'matrixBox_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(219): error C2228: left of '.Left' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(220): error C2065: 'matrixBox_' : undeclared identifier
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(220): error C2228: left of '.Right' must have class/struct/union
+          type is 'unknown-type'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(223): error C2143: syntax error : missing ';' before 'Matrix::getMatrixBox'
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(223): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\vmware-host\shared folders\documents\visual studio 2013\projects\matrix_code\matrix_code\matrix.cpp(224): error C2065: 'matrixBox_' : undeclared identifier
+  Generating Code...
+Done Building Project "\\vmware-host\Shared Folders\Documents\Visual Studio 2013\Projects\Matrix_Code\Matrix_Code\Matrix_Code.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.07
